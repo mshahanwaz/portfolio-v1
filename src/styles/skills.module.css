@@ -1,0 +1,53 @@
+@import url("../styles/App.css");
+
+.skills {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+}
+
+.skill {
+  flex: 1;
+  text-align: center;
+}
+
+.skill i,
+.tool i {
+  display: inline-flex;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 2px solid var(--color-white);
+  border-radius: 5px;
+  color: var(--color-primary);
+}
+
+.skill h3,
+.tool h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--color-white);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.skill p,
+.tool p {
+  color: var(--color-secondary);
+  /* text-align: left; */
+  padding-left: 20px;
+  font-size: 1.1rem;
+  background-color: var(--color-black);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+/* .skill p::before,
+.tool p::before {
+  content: "> ";
+} */
+
+.tool {
+  flex: 1;
+  text-align: center;
+}

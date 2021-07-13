@@ -1,0 +1,65 @@
+@import url("../styles/App.css");
+
+.fullBlog {
+  padding: 0 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.fullBlog h1 {
+  /* font-weight: 400; */
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 17px;
+  border-radius: 10px;
+  font-family: var(--font-r);
+  border: 2px solid var(--color-white);
+  color: var(--color-primary);
+}
+
+.fullBlog h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  border-bottom: 2px solid var(--color-primary);
+  /* text-align: center; */
+  /* width: fit-content;
+  margin-left: auto;
+  margin-right: auto; */
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.readDate {
+  font-family: var(--font-r);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.article p {
+  font-size: 1.1rem;
+  white-space: pre; /* CSS 2.0 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3.0 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -hp-pre-wrap; /* HP Printers */
+  word-wrap: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+}
+
+.tags {
+  display: flex;
+  margin: 20px 0;
+}

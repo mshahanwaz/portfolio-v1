@@ -1,0 +1,48 @@
+@import url("../styles/App.css");
+
+.projects {
+  padding: 0 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.projects h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title span {
+  color: var(--color-secondary);
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.span1 {
+  flex: 0.1;
+}
+
+.span2 {
+  flex: 0.5;
+  text-align: left !important;
+  padding-left: 10px;
+}
+
+.span3 {
+  flex: 0.2;
+}
+
+.span4 {
+  flex: 0.2;
+}

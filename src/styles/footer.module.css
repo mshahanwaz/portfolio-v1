@@ -1,0 +1,56 @@
+@import url("/src/styles/App.css");
+
+.footer {
+  background: var(--color-black);
+  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.name {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: var(--font-r);
+  /* text-transform: uppercase; */
+}
+
+.annot {
+  display: flex;
+  align-items: center;
+}
+
+.annot span {
+  display: inline-flex;
+  padding-left: 10px;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.annot span:hover {
+  color: var(--color-red);
+  cursor: pointer;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

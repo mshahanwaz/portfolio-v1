@@ -1,0 +1,39 @@
+@import url("./App.css");
+
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.activeLink {
+  color: var(--color-white);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.pic {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.picWrapper {
+  width: 10em;
+  height: 10em;
+  border: 2px solid var(--color-secondary);
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.space {
+  padding: 0 5px;
+}

@@ -1,0 +1,26 @@
+@import url("../styles/App.css");
+
+.projectshow h2 {
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.linkProjects {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: var(--color-black);
+  font-family: var(--font-g);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.linkProjects i {
+  margin-right: 8px;
+  color: var(--color-primary);
+}

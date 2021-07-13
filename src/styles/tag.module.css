@@ -1,0 +1,15 @@
+@import url("../styles/App.css");
+
+.tag {
+  margin-right: 10px;
+}
+
+.tag code {
+  display: block;
+  font-family: var(--font-r);
+  border: 1px solid var(--color-primary);
+  padding: 4px 7px;
+  margin-top: 10px;
+  color: var(--color-primary);
+  border-radius: 5px;
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Mohammad Shahanwaz",
+  "bio": {
+    "first": "I build stuffs for the web.",
+    "second": "I am Delhi-based software engineer who is specialised in building exceptional digital experiences.",
+    "third": "MERN stack developer, designer(occasionally) and content creator"
+  },
+  "resume": {
+    "version": "4.0"
+  },
+  "nickname": "Shahanwaz",
+  "terminal": {
+    "hobbies": [
+      "Travelling different places",
+      "Reading new books and blogs",
+      "Eating to be alive :0",
+      "Playing CODM and volleyball",
+      "Coding with new techs"
+    ]
+  },
+  "allprojects": [
+    {
+      "title": "Netflix Clone",
+      "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
+      "tags": ["ReactJS", "TMDB API"],
+      "year": 2021,
+      "link": "https://full-netflix-build.web.app/"
+    },
+    {
+      "title": "Tinder Clone",
+      "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": ""
+    },
+    {
+      "title": "Instagram Clone",
+      "description": "Decent Instagram clone having ability to signup or login with email & passwords to post feed, with comment facility on that post (when login)",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Netflix Clone",
+      "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
+      "tags": ["ReactJS", "TMDB API"],
+      "year": 2021,
+      "link": "https://full-netflix-build.web.app/",
+      "github": "https://github.com/mshahanwaz/"
+    },
+    {
+      "title": "Tinder Clone",
+      "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": "https://tinder-clone-f7d0f.web.app/",
+      "github": "https://github.com/mshahanwaz/tinder-clone"
+    },
+    {
+      "title": "Instagram Clone",
+      "description": "Decent Instagram clone having ability to signup or login with email & passwords to post feed, with comment facility on that post (when login)",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": "https://instagram-v0.web.app/",
+      "github": "https://github.com/mshahanwaz/instagram-clone"
+    },
+    {
+      "title": "Weather App",
+      "description": "Simple weather application with minimal, decent and clean UI using Open Weather API with graphical representation of weather forecasting",
+      "tags": ["HTML", "CSS", "JS", "Open Weather API"],
+      "year": 2021,
+      "link": "https://new-weather-app-v1.netlify.app/",
+      "github": "https://github.com/mshahanwaz/weather-app"
+    },
+    {
+      "title": "Todo App v3",
+      "description": "Super simple UI designed todo application to add and mark todos",
+      "tags": ["HTML", "CSS", "JS"],
+      "year": 2021,
+      "link": "https://another-todo-app-v3.netlify.app/",
+      "github": "https://github.com/mshahanwaz/another-todo-app"
+    },
+    {
+      "title": "Image URL Provider",
+      "description": "Image URL provider provides by simply putting image in Firebase database and fetches downloadable link (personal use!)",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2021,
+      "link": "https://getimgurl.web.app/",
+      "github": "https://github.com/mshahanwaz/getimgurl"
+    },
+    {
+      "title": "Todo App v2",
+      "description": "Second version of todo app using global store provider Redux with bunch of handy tools",
+      "tags": ["ReactJS", "Redux"],
+      "year": 2021,
+      "link": "https://protodo.netlify.app/",
+      "github": "https://github.com/mshahanwaz/pro-todo-app"
+    },
+    {
+      "title": "Spotify Clone",
+      "description": "Great UI designed spotify clone meeting every corner styles with the real one with full spotify login feature",
+      "tags": ["ReactJS", "Spotify API", "Firebase"],
+      "year": 2021,
+      "link": "https://spotify-clone-2a337.web.app/",
+      "github": "https://github.com/mshahanwaz/spotify-clone"
+    },
+    {
+      "title": "Todo App v1",
+      "description": "Todo app with full CRUD features which keeps its data stored even after reload, stored inside Firebase store",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": "https://my-do-todo.web.app/",
+      "github": "https://github.com/mshahanwaz/todo-app"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JS",
+    "ReactJS",
+    "Firebase",
+    "MongoDB",
+    "NodeJS",
+    "ExpressJS",
+    "NextJS",
+    "Redux",
+    "MySQL",
+    "GatsbyJS",
+    "GraphQL",
+    "React Native",
+    "C",
+    "C++"
+  ],
+  "tools": [
+    "VSCode",
+    "Git",
+    "GitHub",
+    "Docker",
+    "Material UI",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Postman"
+  ],
+  "social": {
+    "github": "https://github.com/mshahanwaz",
+    "linkedin": "https://www.linkedin.com/in/mshahanwaz/",
+    "instagram": "https://www.instagram.com/imshahanwaz/",
+    "twitter": "https://twitter.com/_mshahanwaz"
+  }
+}

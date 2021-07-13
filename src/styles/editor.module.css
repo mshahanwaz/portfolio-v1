@@ -1,0 +1,77 @@
+@import url("../styles/App.css");
+
+.editor {
+  margin-top: 40px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  color: var(--color-secondary);
+  background-color: var(--color-black-2);
+  font-size: 0.8rem;
+  padding: 10px 20px 10px 15px;
+}
+
+.lights {
+  display: flex;
+}
+
+.lights span {
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  margin-right: 7px;
+}
+
+.red {
+  background-color: var(--color-red);
+}
+
+.green {
+  background-color: var(--color-green);
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.address {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mid {
+  padding: 15px;
+  background: var(--color-dark);
+  width: 100%;
+}
+
+.mid section {
+  /* background-color: antiquewhite; */
+  width: 100%;
+}
+
+.mid pre,
+.mid code {
+  font-family: var(--font-r);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.mid section pre {
+  padding-top: 3px;
+}
+
+.mid pre span {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,55 @@
+@import url("../styles/App.css");
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+
+.item:hover {
+  background-color: var(--color-black);
+  border-radius: 5px;
+}
+
+.item span {
+  color: var(--color-secondary);
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.span1 {
+  flex: 0.1;
+}
+
+.span2 {
+  flex: 0.5;
+  text-align: left !important;
+  padding-left: 10px;
+  color: var(--color-white) !important;
+}
+
+.span3 {
+  flex: 0.2;
+}
+
+.span4 {
+  flex: 0.2;
+}
+
+.span4 a {
+  display: block;
+  text-decoration: none;
+}
+
+.span4 a i {
+  height: fit-content;
+  width: fit-content;
+  color: var(--color-white);
+}
+
+.span4 a i:hover {
+  color: var(--color-primary);
+}

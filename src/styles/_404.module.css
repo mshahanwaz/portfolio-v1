@@ -1,0 +1,23 @@
+@import url("../styles/App.css");
+
+.wrap {
+  padding: 0 10px 40px 10px;
+}
+
+.wrap h1 {
+  font-size: 9rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.wrap h1 span {
+  color: var(--color-primary);
+}
+
+.wrap p {
+  text-align: center;
+}
+
+.wrap p:nth-child(3) {
+  font-size: 0.9rem;
+}

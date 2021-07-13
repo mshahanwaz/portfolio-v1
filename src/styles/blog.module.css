@@ -1,0 +1,52 @@
+@import url("../styles/App.css");
+
+.blog {
+  border: 2px solid white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.title {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+}
+
+.title p {
+  font-family: var(--font-r);
+}
+
+.article {
+  padding: 10px;
+}
+
+.article p {
+  color: var(--color-secondary);
+}
+
+.readDate {
+  font-family: var(--font-r);
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  color: var(--color-white);
+  text-decoration: none;
+  border-bottom: 2px solid;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  border-color: var(--color-primary);
+}
+
+.tags {
+  margin-bottom: 5px;
+  display: flex;
+  padding: 10px;
+}

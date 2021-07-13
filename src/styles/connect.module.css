@@ -1,0 +1,110 @@
+@import url("../styles/App.css");
+
+.connect {
+  padding: 0 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.connect h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect > p {
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+}
+
+.social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.media {
+  width: fit-content;
+  padding: 4px 12px 7px 12px;
+  border-radius: 7px;
+  border: 2px solid var(--color-white);
+}
+
+.media a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
+.connect span {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+.message form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form button,
+form textarea {
+  margin-top: 5px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-g);
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  outline-color: var(--color-primary);
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  color: var(--color-secondary);
+}
+
+form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 5px 0 5px 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form button p {
+  padding-bottom: 3px;
+  padding-left: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+form button i {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  /* padding-right: 5px; */
+}
+
+form textarea {
+  border: none;
+  padding: 10px;
+  height: 150px;
+}
