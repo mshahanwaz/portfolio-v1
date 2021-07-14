@@ -23,7 +23,7 @@ function Connect() {
 
   return (
     <div className={connect}>
-      <h3>Connect</h3>
+      <h2>Connect</h2>
       <p>Follow me on different social media:</p>
       <div className={social}>
         <div className={media}>
@@ -63,8 +63,8 @@ function Connect() {
           </a>
         </div>
       </div>
-      <span>OR</span>
-      <p>For any query or suggestions, ping me directly here:</p>
+      <span>- OR -</span>
+      <p>For any query or suggestions, direct message me here:</p>
       <div className={message}>
         <form>
           <input type="text" placeholder="Name" />

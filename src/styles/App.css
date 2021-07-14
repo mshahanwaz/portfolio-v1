@@ -9,10 +9,10 @@
   --font-r: "Consolas", "Courier New", Courier, monospace;
   --color-primary: #00fff0;
   --color-secondary: #cecece;
-  --color-tertiary: #202020;
+  --color-tertiary: #333333;
   --color-white: #fff;
-  --color-black: #000000d9;
-  --color-black-2: rgba(44, 44, 44, 0.897);
+  --color-black: #262626;
+  --color-black-2: #131313;
   --color-dark: #000;
   --color-red: rgb(245, 49, 49);
   --color-green: rgb(92, 204, 92);
@@ -27,12 +27,6 @@
   color: var(--color-white);
   font-family: var(--font-g);
   min-height: 100vh;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 ul {

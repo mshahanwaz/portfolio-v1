@@ -7,7 +7,7 @@ function Skills({ skillsList, tools }) {
     <div className={skills}>
       <div className={skill}>
         <i className="bi bi-lightning-fill"></i>
-        <h3>Skills</h3>
+        <h2>Skills</h2>
         <div className="list">
           {skillsList?.map((skill) => (
             <p>{skill}</p>
@@ -16,7 +16,7 @@ function Skills({ skillsList, tools }) {
       </div>
       <div className={tool}>
         <i className="bi bi-tools"></i>
-        <h3>Tools</h3>
+        <h2>Tools</h2>
         <div className="list">
           {tools?.map((toolItem) => (
             <p>{toolItem}</p>

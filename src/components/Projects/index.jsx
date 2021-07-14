@@ -27,7 +27,7 @@ function Projects() {
 
   return (
     <div className={projects}>
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <div className={container}>
         <div className={title}>
           <span className={span1}>#</span>

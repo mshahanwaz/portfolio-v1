@@ -11,11 +11,13 @@ import {
 } from "../../../styles/project.module.css";
 import Tag from "./Tag";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Link } from "react-router-dom";
 
 function Project({ data, dir, imageFull }) {
   return (
-    <div className={project}>
+    <div
+      className={project}
+      style={{ flexDirection: `${dir && "row-reverse"}` }}
+    >
       <div className={imageWrap}>
         <span></span>
         <img src={imageFull} alt="nothing" className={image} />

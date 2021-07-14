@@ -7,31 +7,27 @@
 }
 
 .fullBlog h1 {
-  /* font-weight: 400; */
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 900;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 17px;
-  border-radius: 10px;
   font-family: var(--font-r);
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 60px auto 80px auto;
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 8px;
   border: 2px solid var(--color-white);
   color: var(--color-primary);
 }
 
 .fullBlog h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
   border-bottom: 2px solid var(--color-primary);
   /* text-align: center; */
   /* width: fit-content;
   margin-left: auto;
   margin-right: auto; */
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .readDate {
@@ -39,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 20px;
+  margin: 20px 0 40px 0;
 }
 
 .article p {
@@ -57,6 +53,7 @@
   -o-hyphens: auto;
   hyphens: auto;
   text-align: justify;
+  color: var(--color-secondary);
 }
 
 .tags {

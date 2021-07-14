@@ -14,7 +14,7 @@ function ProjectItem({ data, index }) {
       <span className={span2}>{data.title}</span>
       <span className={span3}>{data.year}</span>
       <span className={span4}>
-        <a href={data.link}>
+        <a href={data.link} target="_blank" rel="noopener noreferrer">
           <i className="bi bi-box-arrow-up-right"></i>
         </a>
       </span>

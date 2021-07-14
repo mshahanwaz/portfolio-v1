@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import {
   editor,
   top,
@@ -8,12 +8,11 @@ import {
   address,
   mid,
   lights,
-  nopad,
 } from "../../../styles/editor.module.css";
 
 function Editor({ text, username }) {
   useEffect(() => {
-    document.querySelector("div section").innerHTML = text;
+    document.querySelector("div pre section").innerHTML = text;
   }, [text]);
 
   return (
@@ -27,7 +26,9 @@ function Editor({ text, username }) {
         <div className={address}>~/Users/{username}/v1</div>
       </div>
       <div className={mid}>
-        <section></section>
+        <pre>
+          <section></section>
+        </pre>
       </div>
     </div>
   );

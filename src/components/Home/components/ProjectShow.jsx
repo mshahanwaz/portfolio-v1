@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 import {
@@ -12,7 +12,6 @@ import netflix from "../../../assets/images/netflix.png";
 import tinder from "../../../assets/images/tinder.png";
 
 function ProjectShow({ projectsList }) {
-  // console.log(projectsList[0]);
   return (
     <div className={projectshow}>
       <h2>Featured projects</h2>
@@ -23,11 +22,12 @@ function ProjectShow({ projectsList }) {
           else if (project.title === "Netflix Clone")
             return <Project data={project} imageFull={netflix} />;
           else if (project.title === "Tinder Clone")
-            return <Project data={project} imageFull={tinder} />;
+            return <Project data={project} imageFull={tinder} dir={1} />;
+          return null;
         })}
       </div>
       <NavLink className={linkProjects} to="/projects">
-        <i className="bi bi-archive-fill"></i> View archive
+        <i className="bi bi-archive-fill"></i> <p>View archive</p>
       </NavLink>
     </div>
   );

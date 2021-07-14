@@ -1,12 +1,10 @@
 @import url("../styles/App.css");
 
 .editor {
-  margin-top: 40px;
+  margin: 80px 0;
   width: 100%;
   height: fit-content;
   border-radius: 10px;
-  background-color: var(--color-secondary);
-  margin-bottom: 40px;
   overflow: hidden;
 }
 
@@ -14,7 +12,7 @@
   position: relative;
   width: 100%;
   color: var(--color-secondary);
-  background-color: var(--color-black-2);
+  background-color: var(--color-tertiary);
   font-size: 0.8rem;
   padding: 10px 20px 10px 15px;
 }
@@ -56,22 +54,47 @@
   width: 100%;
 }
 
-.mid section {
+.mid pre {
   /* background-color: antiquewhite; */
   width: 100%;
+  text-align: center;
 }
 
-.mid pre,
-.mid code {
-  font-family: var(--font-r);
-  font-size: 0.9rem;
-  line-height: 1.3rem;
+.mid pre section {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #4fcf70,
+    #fad648,
+    #a767e5,
+    #12bcfe,
+    #4fcf70
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: colorful 5s infinite linear;
 }
 
-.mid section pre {
-  padding-top: 3px;
+@keyframes colorful {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -700px;
+  }
 }
 
-.mid pre span {
-  color: var(--color-secondary);
+@media screen and (min-width: 599px) {
+  @keyframes colorful {
+    0% {
+      background-position: 0px;
+    }
+    100% {
+      background-position: -650px;
+    }
+  }
 }

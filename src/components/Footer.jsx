@@ -19,8 +19,9 @@ function Footer() {
     <div className={footer}>
       <h3 className={name}>{bio?.name}</h3>
       <div className={annot}>
-        <p>Made with </p>
+        <p>Made with</p>
         <span>♥</span>
+        <p>in <span>2021</span></p>
       </div>
     </div>
   );

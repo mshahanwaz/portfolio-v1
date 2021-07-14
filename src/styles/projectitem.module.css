@@ -9,7 +9,7 @@
 }
 
 .item:hover {
-  background-color: var(--color-black);
+  background-color: var(--color-black-2);
   border-radius: 5px;
 }
 

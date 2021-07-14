@@ -6,9 +6,9 @@
   margin: 0 auto;
 }
 
-.connect h3 {
+.connect h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
   width: fit-content;
   margin-left: auto;
@@ -35,21 +35,25 @@
   width: fit-content;
   padding: 4px 12px 7px 12px;
   border-radius: 7px;
-  border: 2px solid var(--color-white);
 }
 
 .media a {
   text-decoration: none;
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: all 0.3s;
+}
+
+.media a:hover {
+  color: var(--color-white);
 }
 
 .connect > span {
   display: block;
   text-align: center;
   font-size: 2rem;
-  font-weight: 400;
-  margin: 40px 0 40px 0;
+  font-weight: 300;
+  margin: 40px 0;
 }
 
 .message {
@@ -62,15 +66,15 @@
 }
 
 form input,
-form button,
 form textarea {
   margin-top: 5px;
-  background-color: var(--color-black);
+  background-color: var(--color-black-2);
   color: var(--color-white);
   font-family: var(--font-g);
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.5px;
+  border-radius: 5px;
   outline: none;
 }
 
@@ -82,33 +86,51 @@ form textarea {
 form input {
   padding: 10px;
   border: none;
-  border-radius: 5px;
 }
 
 form button {
-  padding: 5px 0 5px 0;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: var(--color-black-2);
+  font-family: var(--font-g);
+  outline: none;
+  border-radius: 10px;
 }
 
 form button p {
-  padding-bottom: 3px;
+  color: var(--color-white);
+  /* padding-bottom: 3px; */
   padding-left: 5px;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 form button i {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--color-primary);
-  /* padding-right: 5px; */
+  padding-right: 5px;
+}
+
+form button:hover i {
+  color: var(--color-white) !important;
 }
 
 form textarea {
   border: none;
   padding: 10px;
   height: 150px;
+  resize: vertical;
+}
+
+@media screen and (min-width: 599px) {
+  form button {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

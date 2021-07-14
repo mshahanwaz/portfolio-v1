@@ -4,20 +4,19 @@
   color: var(--color-secondary);
   width: 100%;
   margin-bottom: 20px;
-  border: 2px solid var(--color-secondary);
-  /* box-shadow: 0px 5px 5px var(--color-tertiary); */
+  border: 1px solid var(--color-secondary);
   border-radius: 10px;
   overflow: hidden;
+}
+
+.imageWrap {
+  position: relative;
 }
 
 .image {
   width: 100%;
   object-fit: contain;
-  z-index: -100;
-}
-
-.imageWrap {
-  position: relative;
+  display: block;
 }
 
 .imageWrap span {
@@ -25,18 +24,21 @@
   width: 100%;
   height: 100%;
   z-index: 100;
-  background: linear-gradient(var(--color-primary), var(--color-secondary));
-  opacity: 0.4;
+  background: linear-gradient(
+    to right,
+    var(--color-dark),
+    var(--color-primary) 80%
+  );
+  opacity: 0.5;
   transition: opacity 0.5s;
 }
 
-.imageWrap span:hover {
+.project:hover .imageWrap span {
   opacity: 0;
 }
 
 .detail {
-  padding: 10px;
-  /* background: var(--color-black-2); */
+  margin: 10px;
 }
 
 .link {
@@ -49,16 +51,16 @@
 }
 
 .link h3 {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   font-weight: 400;
   color: var(--color-white);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .link i {
   font-size: 1.3rem;
   cursor: pointer;
-  color: var(--color-white);
+  color: var(--color-secondary);
   border-radius: 5px;
 }
 
@@ -68,7 +70,7 @@
 }
 
 .link i:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .link h3:hover {
@@ -83,4 +85,27 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 599px) {
+  .project {
+    border: none;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    /* background-color: blue; */
+  }
+  .imageWrap {
+    /* background-color: blue; */
+    flex: 0.5;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .detail {
+    flex: 0.5;
+    margin: 20px;
+    /* background-color: violet; */
+  }
 }

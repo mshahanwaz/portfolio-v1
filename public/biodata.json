@@ -24,29 +24,6 @@
       "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
       "tags": ["ReactJS", "TMDB API"],
       "year": 2021,
-      "link": "https://full-netflix-build.web.app/"
-    },
-    {
-      "title": "Tinder Clone",
-      "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
-      "tags": ["ReactJS", "Firebase"],
-      "year": 2020,
-      "link": "https://tinder-clone-f7d0f.web.app/"
-    },
-    {
-      "title": "Weather App",
-      "description": "Simple weather application with minimal, decent and clean UI using Open Weather API with graphical representation of weather forecasting",
-      "tags": ["HTML", "CSS", "JS", "Open Weather API"],
-      "year": 2021,
-      "link": "https://new-weather-app-v1.netlify.app/"
-    }
-  ],
-  "projects": [
-    {
-      "title": "Netflix Clone",
-      "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
-      "tags": ["ReactJS", "TMDB API"],
-      "year": 2021,
       "link": "https://full-netflix-build.web.app/",
       "github": "https://github.com/mshahanwaz/"
     },
@@ -55,8 +32,32 @@
       "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
       "tags": ["ReactJS", "Firebase"],
       "year": 2020,
-      "link": "https://tinder-clone-f7d0f.web.app/",
-      "github": "https://github.com/mshahanwaz/tinder-clone"
+      "github": "https://github.com/mshahanwaz/tinder-clone",
+      "link": "https://tinder-clone-f7d0f.web.app/"
+    },
+    {
+      "title": "Weather App",
+      "description": "Simple weather application with minimal, decent and clean UI using Open Weather API with graphical representation of weather forecasting",
+      "tags": ["HTML", "CSS", "JS", "Open Weather API"],
+      "year": 2021,
+      "link": "https://new-weather-app-v1.netlify.app/",
+      "github": "https://github.com/mshahanwaz/weather-app"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Netflix Clone",
+      "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
+      "tags": ["ReactJS", "TMDB API"],
+      "year": 2021,
+      "link": "https://full-netflix-build.web.app/"
+    },
+    {
+      "title": "Tinder Clone",
+      "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
+      "tags": ["ReactJS", "Firebase"],
+      "year": 2020,
+      "link": "https://tinder-clone-f7d0f.web.app/"
     },
     {
       "title": "Instagram Clone",
@@ -71,8 +72,7 @@
       "description": "Simple weather application with minimal, decent and clean UI using Open Weather API with graphical representation of weather forecasting",
       "tags": ["HTML", "CSS", "JS", "Open Weather API"],
       "year": 2021,
-      "link": "https://new-weather-app-v1.netlify.app/",
-      "github": "https://github.com/mshahanwaz/weather-app"
+      "link": "https://new-weather-app-v1.netlify.app/"
     },
     {
       "title": "Todo App v3",

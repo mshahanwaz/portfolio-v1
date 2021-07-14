@@ -6,10 +6,10 @@
   margin: 0 auto;
 }
 
-.blogs h1 {
+.blogs h2 {
   font-size: 2rem;
   /* text-align: center; */
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
   width: fit-content;
   margin-left: auto;

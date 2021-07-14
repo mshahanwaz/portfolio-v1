@@ -31,31 +31,33 @@ function Home() {
     fetchData();
   }, []);
 
-  const text = `<p><code>/* A program to print interests and
-hobbies of Mr. Shahanwaz */</code></p><br>
+  const text = `
+  +88                            
+  +880                           
+  ++88                           
+  ++88                           
+  +880                         ++
+  +888                       +88
+  ++880                      +88
+  ++888      +++88         +++8
+  ++8888  +++8880++88    +++88
+  +++8888+++8880++8888__++888
+   ++888++8888+++888888++888
+   ++88++8888++8888888++888
+   ++++++888888888888888888
+    ++++++88888888888888888
+    ++++++++000888888888888
+     +++++++000088888888888
+      +++++++00088888888888
+       +++++++088888888888
+       +++++++088888888888
+        +++++++8888888888
+        +++++++0088888888
+        ++++++0088888888
+        +++++0008888888
+        #############
 
-<p><code>/* Assume that all header files are included */</code></p>
-<br>
-<pre>
-var static <span>main</span>():
-    vector<hobby> bigList;
-    for(auto i=0; infinite; i++):
-        bigList.push_back(<span>thinkAdd</span>());
-        <span>alongWithSomeCoolStuffs</span>();
-    for(auto _hobby in bigList):
-        printf("%ho\\n", _hobby);
-    <span>thanksForReadingThis</span>();
-end main;
-export default <span>main</span>;
-<pre>
-
-// O/P - 
-  ${bio?.terminal?.hobbies[0]}
-  ${bio?.terminal?.hobbies[1]}
-  ${bio?.terminal?.hobbies[2]}
-  ${bio?.terminal?.hobbies[3]}
-  ${bio?.terminal?.hobbies[4]}
-`;
+        `;
 
   return (
     <div className={home}>
@@ -64,7 +66,7 @@ export default <span>main</span>;
         <div className={description}>
           <p className={annot}>{bio?.bio.first}</p>
           <p>{bio?.bio.second}</p>
-          <p>{bio?.bio.third}</p>
+          <p>I am a {bio?.bio.third}.</p>
         </div>
       </div>
       <div className={resume}>

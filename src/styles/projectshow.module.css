@@ -1,7 +1,11 @@
 @import url("../styles/App.css");
 
+.projectshow {
+  margin-bottom: 80px;
+}
+
 .projectshow h2 {
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -10,17 +14,28 @@
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
-  font-size: 1.3rem;
-  font-weight: 500;
-  background-color: var(--color-black);
+  font-size: 1.1rem;
+  font-weight: 400;
+  background-color: var(--color-black-2);
   font-family: var(--font-g);
   color: var(--color-white);
   display: flex;
   justify-content: center;
-  text-align: center;
+}
+
+.linkProjects:hover i {
+  color: var(--color-white);
 }
 
 .linkProjects i {
   margin-right: 8px;
   color: var(--color-primary);
+}
+
+@media screen and (min-width: 599px) {
+  .linkProjects {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

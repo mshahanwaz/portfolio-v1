@@ -6,9 +6,9 @@
   margin: 0 auto;
 }
 
-.projects h3 {
+.projects h2 {
+  font-weight: 300;
   font-size: 2rem;
-  font-weight: 400;
   margin-bottom: 20px;
   width: fit-content;
   margin-left: auto;
@@ -22,7 +22,7 @@
 
 .title span {
   color: var(--color-secondary);
-  font-weight: 900;
+  font-weight: 500;
   text-align: center;
   font-size: 1.2rem;
   border-bottom: 1px solid;

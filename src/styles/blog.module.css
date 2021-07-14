@@ -1,7 +1,7 @@
 @import url("../styles/App.css");
 
 .blog {
-  border: 2px solid white;
+  border: 1px solid var(--color-secondary);
   margin-bottom: 20px;
   border-radius: 5px;
 }
@@ -11,19 +11,40 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.title h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-white);
+  padding-bottom: 5px;
 }
 
 .title p {
   font-family: var(--font-r);
+  color: var(--color-secondary);
 }
 
 .article {
-  padding: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .article p {
   color: var(--color-secondary);
+  white-space: pre; /* CSS 2.0 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3.0 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -hp-pre-wrap; /* HP Printers */
+  word-wrap: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
 }
 
 .readDate {
@@ -37,8 +58,9 @@
 .link {
   color: var(--color-white);
   text-decoration: none;
-  border-bottom: 2px solid;
-  transition: all 0.5s;
+  border-bottom: 1px solid var(--color-white);
+  padding-bottom: 2px;
+  transition: all 0.3s;
 }
 
 .link:hover {

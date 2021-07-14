@@ -18,8 +18,8 @@
 }
 
 .annot {
-  padding: 10px 0;
-  font-size: 1.1rem;
+  margin: 20px 0;
+  font-size: 1.2rem;
 }
 
 .name p {
@@ -27,15 +27,22 @@
   color: var(--color-secondary);
 }
 
+.resume {
+  margin: 40px 0;
+}
+
 .resume h2 {
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .options {
   display: flex;
   justify-content: center;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  
 }
 
 .option {
@@ -48,10 +55,10 @@
   border-radius: 8px;
   width: 100%;
   outline: none;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 400;
   color: var(--color-white);
-  background-color: var(--color-black);
+  background-color: var(--color-black-2);
   font-family: var(--font-g);
   border: none;
 }
@@ -70,8 +77,8 @@
   color: var(--color-primary);
 }
 
-.version {
-  margin-top: 20px;
+.option button:hover i {
+  color: var(--color-white);
 }
 
 .version p {
@@ -89,4 +96,19 @@
 .link {
   color: var(--color-primary);
   text-decoration: none;
+}
+
+@media screen and (min-width: 599px) {
+  .name h1 {
+    font-size: 2.7rem;
+  }
+  .resume {
+    margin: 80px 0;
+  }
+  .resume h2 {
+    margin-bottom: 40px;
+  }
+  .options {
+    margin-bottom: 40px;
+  }
 }

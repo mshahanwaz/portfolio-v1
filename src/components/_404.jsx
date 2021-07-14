@@ -7,8 +7,6 @@ function _404() {
       <h1>
         4<span>0</span>4
       </h1>
-      <p>Not found anything on this site!</p>
-      <p>Hope you find your way.</p>
     </div>
   );
 }
