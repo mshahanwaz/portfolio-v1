@@ -12,32 +12,26 @@ import {
 } from "../../../styles/blog.module.css";
 import Tag from "../../Home/components/Tag";
 
-function Blog() {
-  const tagsList = ["hello", "mello", "world"];
-
+function Blog({ blogItem }) {
   return (
     <div className={blog}>
       <div className={title}>
         <h4>
-          <Link exact to="/blogs/1" className={link}>
-            A blog article
+          <Link to={`/blogs/${blogItem.number}`} className={link}>
+            {blogItem.title}
           </Link>
         </h4>
-        <p>#1</p>
+        <p>{`#${blogItem?.number}`}</p>
       </div>
       <div className={article}>
         <div className={readDate}>
-          <p className={read}>2 mins read</p>
-          <p className={date}>21 Sept, 2021</p>
+          <p className={read}>{blogItem.readTime} mins read</p>
+          <p className={date}>{blogItem.date}</p>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
-          asperiores commodi expedita repellendus illo ex mollitia porro rem
-          eligendi fuga!
-        </p>
+        <p>{blogItem.description}</p>
       </div>
       <div className={tags}>
-        {tagsList.map((tag) => (
+        {blogItem?.tags?.map((tag) => (
           <Tag data={tag} />
         ))}
       </div>

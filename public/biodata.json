@@ -31,14 +31,14 @@
       "description": "Tinder clone with swipe functionality of image which can be extended to real time chatting with that person, focused more on UI design",
       "tags": ["ReactJS", "Firebase"],
       "year": 2020,
-      "link": ""
+      "link": "https://tinder-clone-f7d0f.web.app/"
     },
     {
-      "title": "Instagram Clone",
-      "description": "Decent Instagram clone having ability to signup or login with email & passwords to post feed, with comment facility on that post (when login)",
-      "tags": ["ReactJS", "Firebase"],
-      "year": 2020,
-      "link": ""
+      "title": "Weather App",
+      "description": "Simple weather application with minimal, decent and clean UI using Open Weather API with graphical representation of weather forecasting",
+      "tags": ["HTML", "CSS", "JS", "Open Weather API"],
+      "year": 2021,
+      "link": "https://new-weather-app-v1.netlify.app/"
     }
   ],
   "projects": [
@@ -97,14 +97,6 @@
       "year": 2021,
       "link": "https://protodo.netlify.app/",
       "github": "https://github.com/mshahanwaz/pro-todo-app"
-    },
-    {
-      "title": "Spotify Clone",
-      "description": "Great UI designed spotify clone meeting every corner styles with the real one with full spotify login feature",
-      "tags": ["ReactJS", "Spotify API", "Firebase"],
-      "year": 2021,
-      "link": "https://spotify-clone-2a337.web.app/",
-      "github": "https://github.com/mshahanwaz/spotify-clone"
     },
     {
       "title": "Todo App v1",

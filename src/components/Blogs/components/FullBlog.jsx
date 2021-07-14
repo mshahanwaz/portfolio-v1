@@ -9,33 +9,22 @@ import {
 } from "../../../styles/fullblog.module.css";
 import Tag from "../../Home/components/Tag";
 
-function FullBlog() {
+function FullBlog({ blogItem }) {
   return (
     <div className={fullBlog}>
-      <h1>#2102983</h1>
-      <h2>Full Blog content</h2>
+      <h1>{`#${blogItem.number}`}</h1>
+      <h2>{blogItem.title}</h2>
       <div className={readDate}>
-        <p className={read}>2 mins read</p>
-        <p className={date}>31 Dec, 2021</p>
+        <p className={read}>{blogItem.readTime} mins read</p>
+        <p className={date}>{blogItem.date}</p>
       </div>
       <div className={article}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat
-          quod dolores ad? Totam amet omnis eaque velit quibusdam perferendis,
-          maxime, at mollitia reiciendis, magni est suscipit veritatis nulla
-          aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Praesentium atque omnis rem aspernatur at vitae sunt hic quaerat
-          minima numquam? Est obcaecati earum, sunt a ipsam assumenda officia
-          nostrum in? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cumque perferendis, mollitia corrupti reiciendis asperiores laborum
-          nisi harum est, aliquam voluptate assumenda aspernatur delectus in
-          iusto dignissimos commodi qui veritatis ducimus?
-        </p>
+        <p>{blogItem.main}</p>
       </div>
       <div className={tags}>
-        <Tag data={"hello"} />
-        <Tag data={"hello"} />
-        <Tag data={"hello"} />
+        {blogItem?.tags?.map((tag) => (
+          <Tag data={tag} />
+        ))}
       </div>
     </div>
   );

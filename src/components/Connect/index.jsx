@@ -24,7 +24,7 @@ function Connect() {
   return (
     <div className={connect}>
       <h3>Connect</h3>
-      <p>Follow me on different media:</p>
+      <p>Follow me on different social media:</p>
       <div className={social}>
         <div className={media}>
           <a
