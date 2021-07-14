@@ -10,8 +10,6 @@ import {
   link,
   version,
 } from "../../styles/home.module.css";
-import dark from "../../assets/resume/v4-dark.pdf";
-import light from "../../assets/resume/v4-light.pdf";
 import { NavLink } from "react-router-dom";
 import Editor from "./components/Editor";
 import ProjectShow from "./components/ProjectShow";
@@ -73,7 +71,7 @@ function Home() {
         <h2>Resume</h2>
         <div className={options}>
           <a
-            href={light}
+            href="https://drive.google.com/file/d/1KLA8k1fpqC_Gee03SJy2zAJrescoE83W/view?usp=sharing"
             download
             target="_blank"
             rel="noreferrer"
@@ -84,7 +82,7 @@ function Home() {
             </button>
           </a>
           <a
-            href={dark}
+            href="https://drive.google.com/file/d/1cEHqhB6fA-XiYX8r_d4c_GXl4t7Hiy3w/view?usp=sharing"
             download
             target="_blank"
             rel="noreferrer"
