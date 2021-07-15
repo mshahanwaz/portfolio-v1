@@ -4,8 +4,9 @@
 }
 
 :root {
-  --font-g: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* --font-g: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  --font-g: "Lato", sans-serif;
   --font-r: "Consolas", "Courier New", Courier, monospace;
   --color-primary: #00fff0;
   --color-secondary: #cecece;
@@ -21,7 +22,7 @@
 
 .app {
   background-color: var(--color-black);
-  background-image: url("../assets/background_image.png");
+  background-image: url("../assets/background_image-1.png");
   background-repeat: repeat-x;
   background-position: top center;
   color: var(--color-white);

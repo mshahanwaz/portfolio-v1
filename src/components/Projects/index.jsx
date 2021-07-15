@@ -9,6 +9,7 @@ import {
   span3,
   span4,
 } from "../../styles/projects.module.css";
+import Loading from "../Loading";
 import ProjectItem from "./components/ProjectItem";
 
 function Projects() {
@@ -25,25 +26,27 @@ function Projects() {
     fetchData();
   }, []);
 
-  return (
-    <div className={projects}>
-      <h2>Projects</h2>
-      <div className={container}>
-        <div className={title}>
-          <span className={span1}>#</span>
-          <span className={span2}>Title</span>
-          <span className={span3}>Year</span>
-          <span className={span4}>Link</span>
-        </div>
-        <div className={list}>
-          {bio?.projects?.map((project, index) => {
-            console.log(index);
-            return <ProjectItem data={project} index={index+1} />;
-          })}
+  if (bio) {
+    return (
+      <div className={projects}>
+        <h2>Projects</h2>
+        <div className={container}>
+          <div className={title}>
+            <span className={span1}>#</span>
+            <span className={span2}>Title</span>
+            <span className={span3}>Year</span>
+            <span className={span4}>Link</span>
+          </div>
+          <div className={list}>
+            {bio?.projects?.map((project, index) => {
+              console.log(index);
+              return <ProjectItem data={project} index={index + 1} />;
+            })}
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else return <Loading />;
 }
 
 export default Projects;

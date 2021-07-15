@@ -12,11 +12,11 @@
 
 .name {
   color: var(--color-primary);
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 10px;
   letter-spacing: 2px;
-  font-family: var(--font-r);
+  font-family: var(--font-g);
 }
 
 .annot {
