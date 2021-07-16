@@ -6,6 +6,7 @@ import {
   message,
 } from "../../styles/connect.module.css";
 import { db } from "../../firebase";
+import firebase from "firebase";
 
 function Connect() {
   const [bio, setBio] = useState(null);
@@ -25,16 +26,42 @@ function Connect() {
     fetchData();
   }, []);
 
+  const returnDate = () => {
+    var dt = new Date();
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    var options = {
+      hour: "2-digit",
+      minute: "2-digit",
+    };
+    var d = dt.toLocaleTimeString("en-US", options).toString() + " on ";
+    d += dt.getDate() + " " + months[dt.getMonth()] + ", " + dt.getFullYear();
+    return d;
+  };
+
   const sendMessage = (e) => {
     e.preventDefault();
     if (email && by && message) {
       db.collection("messages").add({
         message: messageNew,
-        by: by,
-        email: email,
-        on: new Date(),
+        by,
+        email,
+        on: returnDate(),
         site: "https://imshahanwaz.web.app",
         checked: false,
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       });
       alert("Sent successfully!");
       setBy("");

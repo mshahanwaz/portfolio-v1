@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "imshahanwaz"
+  },
+  "targets": {
+    "imshahanwaz": {
+      "hosting": {
+        "v1": [
+          "imshahanwaz-v1"
+        ]
+      }
+    }
   }
 }
