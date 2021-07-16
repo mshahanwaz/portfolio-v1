@@ -126,14 +126,19 @@
     "C++"
   ],
   "tools": [
-    "VSCode",
     "Git",
     "GitHub",
+    "React Router",
     "Docker",
+    "Styled-Components",
     "Material UI",
     "Bootstrap",
     "Tailwind CSS",
-    "Postman"
+    "Postman",
+    "VSCode",
+    "npm",
+    "yarn",
+    "Figma"
   ],
   "social": {
     "github": "https://github.com/mshahanwaz",
