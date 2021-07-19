@@ -31,11 +31,15 @@
 }
 
 .readDate {
-  font-family: var(--font-r);
+  font-family: var(--font-g);
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 20px 0 40px 0;
+}
+
+.readDate p {
+  font-size: 0.8rem;
 }
 
 .article p {

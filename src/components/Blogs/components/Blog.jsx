@@ -17,7 +17,7 @@ function Blog({ blogItem }) {
     <div className={blog}>
       <div className={title}>
         <h4>
-          <Link to={`/blogs/${blogItem.number}`} className={link}>
+          <Link to={"/blogs/" + blogItem.number} className={link}>
             {blogItem.title}
           </Link>
         </h4>

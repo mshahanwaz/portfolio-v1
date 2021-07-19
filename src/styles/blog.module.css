@@ -48,11 +48,15 @@
 }
 
 .readDate {
-  font-family: var(--font-r);
+  font-family: var(--font-g);
   margin-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.readDate p {
+  font-size: 0.8rem;
 }
 
 .link {

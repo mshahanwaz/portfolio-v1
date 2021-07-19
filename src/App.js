@@ -18,14 +18,7 @@ function App() {
     db.collection("blogs")
       .orderBy("timestamp", "desc")
       .onSnapshot((snapshot) => {
-        setAllBlogs(
-          snapshot.docs.map((doc) => {
-            return {
-              id: doc.id,
-              blog: doc.data(),
-            };
-          })
-        );
+        setAllBlogs(snapshot.docs.map((doc) => doc.data()));
       });
   }, []);
   return (
@@ -35,14 +28,14 @@ function App() {
         <Switch>
           <Route exact path="/connect" component={Connect} />
           <Route exact path="/projects" component={Projects} />
-          {allBlogs?.map(({ blog }) => (
-            <Route exact path={`/blogs/${blog.number}`}>
-              <FullBlog blogItem={blog} />
-            </Route>
-          ))}
+          <Route
+            exact
+            path={"/blogs/:number"}
+            component={() => <FullBlog blogs={allBlogs} />}
+          />
           <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/" component={Home} />
-          <Route path="*" component={_404} />
+          <Route exact path="*" component={_404} />
         </Switch>
         <Footer />
       </Router>
