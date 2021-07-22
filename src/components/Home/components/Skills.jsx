@@ -1,5 +1,5 @@
 import React from "react";
-import { skills, skill, tool } from "../../../styles/skills.module.css";
+import { skills, skill, tool, list } from "../../../styles/skills.module.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Skills({ skillsList, tools }) {
@@ -8,7 +8,7 @@ function Skills({ skillsList, tools }) {
       <div className={skill}>
         <i className="bi bi-lightning-fill"></i>
         <h2>Skills</h2>
-        <div className="list">
+        <div className={list}>
           {skillsList?.map((skill) => (
             <p>{skill}</p>
           ))}
@@ -17,7 +17,7 @@ function Skills({ skillsList, tools }) {
       <div className={tool}>
         <i className="bi bi-tools"></i>
         <h2>Tools</h2>
-        <div className="list">
+        <div className={list}>
           {tools?.map((toolItem) => (
             <p>{toolItem}</p>
           ))}

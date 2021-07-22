@@ -1,8 +1,7 @@
 @import url("/src/styles/App.css");
 
 .footer {
-  border-top: 2px dashed var(--color-secondary);
-  background-color: var(--color-tertiary);
+  background-color: var(--color-dark);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +10,32 @@
 }
 
 .name {
-  color: var(--color-primary);
-  font-size: 1.3rem;
-  font-weight: 500;
+  /* color: var(--color-primary); */
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 2px;
   font-family: var(--font-g);
+  background: linear-gradient(
+    to right,
+    var(--color-white) 50%,
+    var(--color-primary) 50%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name:hover {
+  background: linear-gradient(
+    to right,
+    var(--color-primary) 50%,
+    var(--color-white) 50%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .annot {
@@ -48,7 +67,7 @@
 
 @keyframes beat {
   0% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   25% {
     transform: scale(1.2);

@@ -7,6 +7,7 @@ import {
   article,
   date,
   tags,
+  description,
 } from "../../../styles/fullblog.module.css";
 import Tag from "../../Home/components/Tag";
 import Loading from "../../Loading";
@@ -29,6 +30,7 @@ function FullBlog({ blogs }) {
     <div className={fullBlog}>
       <h1>{`#${blog?.number}`}</h1>
       <h2>{blog?.title}</h2>
+      <div className={description}>{blog?.description}</div>
       <div className={readDate}>
         <p className={read}>{blog?.readTime} mins read</p>
         <p className={date}>{blog?.date}</p>

@@ -9,7 +9,7 @@
 .projects h2 {
   font-weight: 300;
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -45,4 +45,10 @@
 
 .span4 {
   flex: 0.2;
+}
+
+@media screen and (min-width: 599px) {
+  .projects {
+    margin-top: 40px !important;
+  }
 }

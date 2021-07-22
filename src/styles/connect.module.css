@@ -9,7 +9,7 @@
 .connect h2 {
   font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -67,15 +67,17 @@
 
 form input,
 form textarea {
-  margin-top: 5px;
+  margin: 5px auto;
   background-color: var(--color-black-2);
   color: var(--color-white);
   font-family: var(--font-g);
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: 0.5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   outline: none;
+  width: 100%;
+  max-width: 500px;
 }
 
 ::placeholder {
@@ -94,11 +96,13 @@ form button {
   justify-content: center;
   padding: 10px 20px;
   border: none;
-  margin-top: 10px;
+  margin: 5px auto;
   background-color: var(--color-black-2);
   font-family: var(--font-g);
   outline: none;
   border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
 }
 
 form button p {
@@ -125,12 +129,11 @@ form textarea {
   padding: 10px;
   height: 150px;
   resize: vertical;
+  margin: 5px auto;
 }
 
 @media screen and (min-width: 599px) {
-  form button {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  .connect {
+    margin-top: 40px !important;
   }
 }

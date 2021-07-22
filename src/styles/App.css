@@ -11,6 +11,7 @@
   --color-primary: #00fff0;
   --color-secondary: #cecece;
   --color-tertiary: #333333;
+  --color-grey: rgb(95, 95, 95);
   --color-white: #fff;
   --color-black: #262626;
   --color-black-2: #131313;
@@ -28,11 +29,6 @@
   color: var(--color-white);
   font-family: var(--font-g);
   min-height: 100vh;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
 }
 
 button {

@@ -20,8 +20,12 @@ function Footer() {
       <h3 className={name}>{bio?.name}</h3>
       <div className={annot}>
         <p>Made with</p>
-        <span>♥</span>
-        <p>in <span>2021</span></p>
+        <span>
+          <i className="bi bi-heart-fill"></i>
+        </span>
+        <p>
+          in <span>2021</span>
+        </p>
       </div>
     </div>
   );

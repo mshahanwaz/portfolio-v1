@@ -3,7 +3,6 @@
 .blog {
   border: 1px solid var(--color-secondary);
   margin-bottom: 20px;
-  border-radius: 5px;
 }
 
 .title {
@@ -30,8 +29,9 @@
   padding: 10px 10px 0 10px;
 }
 
-.article p {
+.article > p {
   color: var(--color-secondary);
+  margin-top: 15px;
   white-space: pre; /* CSS 2.0 */
   white-space: pre-wrap; /* CSS 2.1 */
   white-space: pre-line; /* CSS 3.0 */
@@ -60,19 +60,18 @@
 }
 
 .link {
-  color: var(--color-white);
+  color: var(--color-primary);
   text-decoration: none;
-  border-bottom: 1px solid var(--color-white);
-  padding-bottom: 2px;
   transition: all 0.3s;
 }
 
 .link:hover {
-  border-color: var(--color-primary);
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
 }
 
 .tags {
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   display: flex;
   padding: 10px;
 }

@@ -42,7 +42,6 @@
   justify-content: center;
   max-width: 600px;
   margin: 0 auto 20px auto;
-  
 }
 
 .option {
@@ -99,6 +98,9 @@
 }
 
 @media screen and (min-width: 599px) {
+  .name {
+    margin-top: 40px;
+  }
   .name h1 {
     font-size: 2.7rem;
   }
