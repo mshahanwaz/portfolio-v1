@@ -12,6 +12,7 @@ import {
 import Tag from "../../Home/components/Tag";
 import Loading from "../../Loading";
 import marked from "marked";
+import moment from "moment";
 
 function FullBlog({ blogs }) {
   const mainRef = useRef();

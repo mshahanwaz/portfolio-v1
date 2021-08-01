@@ -1,7 +1,7 @@
 {
   "name": "Mohammad Shahanwaz",
   "bio": {
-    "first": "I build stuffs for the web.",
+    "first": "I build stuffs for the web with great UI/UX.",
     "second": "I am Delhi-based software engineer who is specialised in building exceptional digital experiences.",
     "third": "MERN stack developer, designer(occasionally) and content creator"
   },
@@ -13,19 +13,27 @@
     "hobbies": [
       "Travelling different places",
       "Reading new books and blogs",
-      "Eating to be alive :0",
+      "Eating a lot",
       "Playing CODM and volleyball",
       "Coding with new techs"
     ]
   },
   "allprojects": [
     {
+      "title": "Todo App v4",
+      "description": "Fully CRUD to-do application made in MERN stack with Redux tool",
+      "tags": ["ReactJS", "TMDB API"],
+      "year": 2021,
+      "link": "https://take-todo.netlify.app/",
+      "github": "https://github.com/mshahanwaz/take-todo"
+    },
+    {
       "title": "Netflix Clone",
       "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
       "tags": ["ReactJS", "TMDB API"],
       "year": 2021,
       "link": "https://full-netflix-build.web.app/",
-      "github": "https://github.com/mshahanwaz/"
+      "github": "https://github.com/mshahanwaz/netflix-build"
     },
     {
       "title": "Tinder Clone",
@@ -46,6 +54,13 @@
   ],
   "projects": [
     {
+      "title": "Todo App v4",
+      "description": "Fully CRUD to-do application made in MERN stack with Redux tool",
+      "tags": ["ReactJS", "TMDB API"],
+      "year": 2021,
+      "link": "https://take-todo.netlify.app/"
+    },
+    {
       "title": "Netflix Clone",
       "description": "Netflix clone with sign-in/sign-up functionality where all movie datasets are being fetched through TMDB API calls",
       "tags": ["ReactJS", "TMDB API"],
@@ -64,8 +79,7 @@
       "description": "Decent Instagram clone having ability to signup or login with email & passwords to post feed, with comment facility on that post (when login)",
       "tags": ["ReactJS", "Firebase"],
       "year": 2020,
-      "link": "https://instagram-v0.web.app/",
-      "github": "https://github.com/mshahanwaz/instagram-clone"
+      "link": "https://instagram-v0.web.app/"
     },
     {
       "title": "Weather App",
@@ -79,8 +93,7 @@
       "description": "Super simple UI designed todo application to add and mark todos",
       "tags": ["HTML", "CSS", "JS"],
       "year": 2021,
-      "link": "https://another-todo-app-v3.netlify.app/",
-      "github": "https://github.com/mshahanwaz/another-todo-app"
+      "link": "https://another-todo-app-v3.netlify.app/"
     },
     {
       "title": "Image URL Provider",
